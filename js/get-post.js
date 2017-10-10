@@ -32,8 +32,14 @@ jQuery( function( $ ) {
               var title = item.title.rendered;
               var link = item.link;
               var excerpt = item.excerpt.rendered;
+              var date = item.date;
+              var year = date.slice(0,4);
+              var day = date.slice(8,10);
+              var month = parseInt(date.substr(5,2));
+              var monthName = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+              var customDate =  monthName[month] + ' ' +  day + ', ' + year;
 
-              $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
+              $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
 					});
 
           // increment fetchpage
