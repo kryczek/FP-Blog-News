@@ -33,7 +33,7 @@ jQuery( function( $ ) {
               var link = item.link;
               var excerpt = item.excerpt.rendered;
 
-              $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ excerpt +'</li>');
+              $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
 					});
 
           // increment fetchpage
