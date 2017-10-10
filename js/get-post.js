@@ -7,11 +7,10 @@ jQuery( function( $ ) {
 
       // prevent default click event
       e.preventDefault();
-
       // update the link text
       $(this).removeClass('load-more__button');
       $(this).addClass('button-clicked');
-      $(this).text('Loading posts...');
+      $(this).html('<img src="img/ring.gif">');
 
       // ajax call
 			$.ajax( {
@@ -43,7 +42,7 @@ jQuery( function( $ ) {
 
                setTimeout(function () {
                 $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
-              }, 20000);
+              }, 3000);
 					});
 
           // increment fetchpage
