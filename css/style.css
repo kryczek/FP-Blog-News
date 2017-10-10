@@ -25,6 +25,17 @@ a.load-more__button {
     display: inline-block;
 }
 
+.button-clicked,
+a.load-more__button:active,
+a.load-more__button:visited {
+    margin-top: 20px;
+    text-align: center;
+    padding:10px;
+    background: yellow;
+    color:red;
+    display: inline-block;
+}
+
 .post { 
   padding:20px 0;
   border-bottom:1px solid #e5e5e5;

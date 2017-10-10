@@ -9,6 +9,8 @@ jQuery( function( $ ) {
       e.preventDefault();
 
       // update the link text
+      $(this).removeClass('load-more__button');
+      $(this).addClass('button-clicked');
       $(this).text('Loading posts...');
 
       // ajax call
