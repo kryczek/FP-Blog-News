@@ -15,7 +15,7 @@ jQuery( function( $ ) {
 
       // ajax call
 			$.ajax( {
-			  url: 'https://www.future-processing.pl/blog/wp-json/wp/v2/posts?per_page=5&page=' + fetchpage,
+			  url: 'https://www.future-processing.pl/blog/wp-json/wp/v2/posts?per_page=10&page=' + fetchpage,
 			  success: function ( data, textStatus, request ) {
   
           // log all the things 
