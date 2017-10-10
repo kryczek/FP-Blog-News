@@ -42,7 +42,7 @@ jQuery( function( $ ) {
 
                setTimeout(function () {
                 $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
-              }, 3000);
+              }, 2500);
 					});
 
           // increment fetchpage
@@ -50,7 +50,7 @@ jQuery( function( $ ) {
 
 					// as long as we still have pages to load
 					if(fetchpage <= totalpages) {
-						setTimeout(function () {$('.load-more a').text('Load More News');}, 3000);
+						setTimeout(function () {$('.load-more a').text('Load More News');}, 2500);
 					} else {
 						$('.load-more__button').hide();
 						$('.js-load-more').text('No more news to load.');
