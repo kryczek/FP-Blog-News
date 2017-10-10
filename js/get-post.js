@@ -41,7 +41,9 @@ jQuery( function( $ ) {
               var monthName = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
               var customDate =  monthName[month] + ' ' +  day + ', ' + year;
 
-              $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
+               setTimeout(function () {
+                $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt +'</li>' + '<a href="' + link + '" target="_blank">Read more</a>');
+              }, 20000);
 					});
 
           // increment fetchpage
