@@ -34,7 +34,7 @@ jQuery( function( $ ) {
               var excerpt = item.excerpt.rendered;
               var date = item.date;
               var year = date.slice(0,4);
-              var day = date.slice(8,10);
+              var day = parseInt(date.substr(8,9));
               var month = parseInt(date.substr(5,2));
               var monthName = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
               var customDate =  monthName[month] + ' ' +  day + ', ' + year;
