@@ -33,7 +33,12 @@ a.load-more__button {
   display: inline-block;
 }
 
-.button-clicked,
+.button-clicked {
+  background-color: transparent;
+  text-align: center;
+  margin: 0 auto;
+}
+
 a.load-more__button:active {
   margin-top: 20px;
   text-align: center;
