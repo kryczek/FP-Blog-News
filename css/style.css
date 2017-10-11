@@ -24,6 +24,23 @@ a {
   text-decoration:none;
 }
 
+.post { 
+  padding:20px 0;
+  border-bottom:1px solid #e5e5e5;
+}
+  
+p { 
+  font-size:12px;
+  padding-top:0;
+  padding-bottom:0px;
+}
+
+/* Button: Call to action */
+
+.load-more {
+  text-align: center;
+}
+
 a.load-more__button {
   margin-top: 20px;
   text-align: center;
@@ -46,17 +63,6 @@ a.load-more__button:active {
   background: yellow;
   color:red;
   display: inline-block;
-}
-
-.post { 
-  padding:20px 0;
-  border-bottom:1px solid #e5e5e5;
-}
-  
-p { 
-  font-size:12px;
-  padding-top:0;
-  padding-bottom:0px;
 }
 
 /* Loader */
