@@ -10,7 +10,7 @@ jQuery( function( $ ) {
       // update the link text
       $(this).removeClass('load-more__button');
       $(this).addClass('button-clicked');
-      $(this).html('<img src="img/ring.gif">');
+      $(this).html('<span class="loader"><span class="loader-inner"></span></span>');
 
       // ajax call
 			$.ajax( {
