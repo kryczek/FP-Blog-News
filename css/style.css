@@ -1,14 +1,22 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani|Source+Sans+Pro');
+
+
 body {
-    background: #f1f1f1;
-    font-family: "Operator Mono";
-    padding:10px;
+  background: #f1f1f1;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding:10px;
+}
+
+h1 {
+  font-family: 'Rajdhani', sans-serif;
 }
 
 main {
-    background: #FFF;
-    padding:20px;
-    max-width:500px;
-    margin:0 auto;
+  background: #FFF;
+  padding:20px;
+  max-width:500px;
+  margin:0 auto;
 }
 
 a { 
@@ -17,22 +25,22 @@ a {
 }
 
 a.load-more__button {
-    margin-top: 20px;
-    text-align: center;
-    padding:10px;
-    background: #222;
-    color:#FFF;
-    display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  padding:10px;
+  background: #222;
+  color:#FFF;
+  display: inline-block;
 }
 
 .button-clicked,
 a.load-more__button:active {
-    margin-top: 20px;
-    text-align: center;
-    padding:10px;
-    background: yellow;
-    color:red;
-    display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  padding:10px;
+  background: yellow;
+  color:red;
+  display: inline-block;
 }
 
 .post { 
@@ -40,8 +48,8 @@ a.load-more__button:active {
   border-bottom:1px solid #e5e5e5;
 }
   
-  p { 
-    font-size:12px;
-    padding-top:0;
-    padding-bottom:0px;
+p { 
+  font-size:12px;
+  padding-top:0;
+  padding-bottom:0px;
   }
