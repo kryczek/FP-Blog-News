@@ -69,10 +69,10 @@ a.load-more__button:active {
 
 .loader {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: relative;
-  border: 4px solid black;
+  border: 4px solid #ccc;
   top: 50%;
   animation: loader 2s infinite ease;
 }
@@ -81,7 +81,7 @@ a.load-more__button:active {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: red;
+  background-color: #ccc;
   animation: loader-inner 2s infinite ease-in;
 }
 
