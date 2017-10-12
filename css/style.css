@@ -3,7 +3,12 @@
 
 
 body {
+  background: url(/background.jpg) no-repeat center center fixed;
   background-color: #231f20;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
   padding:10px;
 }
