@@ -41,6 +41,7 @@ p {
   text-align: center;
 }
 
+.button-clicked:active;
 a.load-more-button {
   display: inline-block;
   background: transparent;
@@ -62,6 +63,7 @@ a.load-more-button {
   border: 1px solid rgba(223,190,106,0.3);
 }
 
+.button-clicked:hover:active;
 a.load-more-button:hover {
   color: #fff;
   border: 1px solid rgba(223,190,106,0);
