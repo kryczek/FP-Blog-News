@@ -92,7 +92,7 @@ a.load-more-button {
   font-weight: bold;
   font-size: 0.8em;
   letter-spacing: 0.3em;
-  color: rgba(28, 0, 255, 1);
+  color: rgba(28,0,255,1);
   border-radius: 3;
   padding: 18px 80px;
   transition: all 0.7s ease-out;
@@ -130,7 +130,7 @@ a.load-more-button:hover {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 3px solid rgba(223,190,106,1);
+  border: 3px solid rgba(28,0,255,1);
   top: 50%;
   opacity: 0.7;
   border-radius: 3px;
@@ -141,7 +141,7 @@ a.load-more-button:hover {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: rgba(223,190,106,1);
+  background-color: rgba(28,0,255,1);
   animation: loader-inner 2s infinite ease-in;
 }
 
