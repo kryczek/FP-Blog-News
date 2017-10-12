@@ -51,6 +51,7 @@ jQuery( function( $ ) {
 					// as long as we still have pages to load
 					if(fetchpage <= totalpages) {
 						setTimeout(function () {$('.load-more a').text('Load More News');}, 2500);
+            $(this).addClass('load-more-button');
 					} else {
 						$('.load-more-button').hide();
 						$('.js-load-more').text('No more news to load.');
