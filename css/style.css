@@ -11,13 +11,17 @@ h1,h2,h3,h4,h5 {
   font-family: 'Rajdhani', sans-serif;
 }
 
+h3 {
+    margin: 0 0 15px;
+}
+
 a { 
-  color:#3498db;
+  color:rgba(28,0,255,1);
   text-decoration:none;
 }
   
 p { 
-  font-size:12px;
+  font-size:14px;
   padding-top:0;
   padding-bottom:0px;
 }
@@ -77,6 +81,14 @@ li.post {
   border-radius: 3px;
 }
 
+li.post h3 {
+  margin: 0 0 15px;
+}
+
+span.post-date {
+    font-weight: bold;
+}
+
 /* Button: Call to action */
 
 .load-more {
@@ -113,8 +125,6 @@ a.load-more-button:hover {
   color: white;
   background-position: 99% 50%;
 }
-
-
 
 
 .button-clicked {
