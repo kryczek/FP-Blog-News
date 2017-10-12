@@ -21,11 +21,6 @@ a {
   color:#3498db;
   text-decoration:none;
 }
-
-.post { 
-  padding:20px 0;
-  border-bottom:1px solid #e5e5e5;
-}
   
 p { 
   font-size:12px;
@@ -63,6 +58,19 @@ p {
   -ms-filter: blur(20px) brightness(0.7);
   -o-filter: blur(20px) brightness(0.7);
   filter: blur(20px) brightness(0.7);
+}
+
+/* Posts list */
+
+ul.posts {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+li.post { 
+  padding:20px;
+  background: white;
 }
 
 /* Button: Call to action */
