@@ -1,16 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Rajdhani|Source+Sans+Pro');
 
-
-html {
-  background: url('/FP-Blog-News/img/background.jpg') no-repeat center center fixed;
-  background-color: #231f20;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding:10px;
@@ -41,6 +31,38 @@ p {
   font-size:12px;
   padding-top:0;
   padding-bottom:0px;
+}
+
+/* Background */
+#background-container {
+  display:block;
+  padding:0;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:-1;
+}
+
+.background-src { 
+  position: absolute;
+  background:url('/FP-Blog-News/img/background.jpg') center center;
+  background-size: cover;
+  top: -10%;
+  bottom: 10%;
+  left: -10%;
+  right: 10%;
+  width:120%;
+  height:120%;
+}
+
+.background-src.blurred {
+  opacity:0;
+  -webkit-filter: blur(20px) brightness(0.7);
+  -ms-filter: blur(20px) brightness(0.7);
+  -o-filter: blur(20px) brightness(0.7);
+  filter: blur(20px) brightness(0.7);
 }
 
 /* Button: Call to action */
