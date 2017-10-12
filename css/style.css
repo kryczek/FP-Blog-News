@@ -90,7 +90,7 @@ a.load-more-button {
   font-style: bold;
   font-size: 0.8em;
   letter-spacing: 0.3em;
-  color: rgba(223,190,106,0.7);
+  color: rgba(28, 0, 255, 1);
   border-radius: 3;
   padding: 18px 80px;
   transition: all 0.7s ease-out;
@@ -128,8 +128,9 @@ a.load-more-button:hover {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 3px solid rgba(223,190,106,0.7);
+  border: 3px solid rgba(223,190,106,1);
   top: 50%;
+  opacity: 0.7;
   border-radius: 3px;
   animation: loader 2s infinite ease;
 }
