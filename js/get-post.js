@@ -41,7 +41,7 @@ jQuery( function( $ ) {
               var customDate =  monthName[month] + ' ' +  day + ', ' + year;
 
                setTimeout(function () {
-                $(".posts").append('<li class="post"><a href="' + link + '" target="_blank">' + title + '</a>'+ ' ' + customDate + '<br>' + excerpt + '<a href="' + link + '" target="_blank">Read more</a>' + '</li>');
+                $(".posts").append('<li class="post"><h3><a href="' + link + '" target="_blank">' + title + '</a></h3>'+ ' ' + '<span class="post-date">' + customDate + '</span>' + excerpt + '<a class="read-more" href="' + link + '" target="_blank">Read more</a>' + '</li>');
               }, 2500);
 					});
 
