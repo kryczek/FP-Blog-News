@@ -42,7 +42,7 @@ p {
 
 .background-src { 
   position: absolute;
-  background:url('/FP-Blog-News/img/background.jpg') center center;
+  background:url('/FP-Blog-News/img/background.jpg') top center;
   background-size: cover;
   top: -10%;
   bottom: 10%;
