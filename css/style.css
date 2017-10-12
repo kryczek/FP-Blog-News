@@ -87,7 +87,7 @@ a.load-more-button {
   background: transparent;
   text-transform: uppercase;
   font-weight: 500;
-  font-style: bold;
+  font-weight: bold;
   font-size: 0.8em;
   letter-spacing: 0.3em;
   color: rgba(28, 0, 255, 1);
@@ -106,7 +106,7 @@ a.load-more-button {
 .button-clicked:hover:active,
 a.load-more-button:hover {
   color: #fff;
-  padding: 21px 83px;
+  padding: 20px 82px;
   border: 1px solid rgba(223,190,106,0);
   color: white;
   background-position: 99% 50%;
