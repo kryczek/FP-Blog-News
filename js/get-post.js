@@ -3,12 +3,12 @@ jQuery( function( $ ) {
   // start fetchpage at 1
   var fetchpage = "1";
 
-  $('a.load-more__button' ).on( 'click', function ( e ) {
+  $('a.load-more-button' ).on( 'click', function ( e ) {
 
       // prevent default click event
       e.preventDefault();
       // update the link text
-      $(this).removeClass('load-more__button');
+      $(this).removeClass('load-more-button');
       $(this).addClass('button-clicked');
       $(this).html('<span class="loader"><span class="loader-inner"></span></span>');
 
@@ -52,7 +52,7 @@ jQuery( function( $ ) {
 					if(fetchpage <= totalpages) {
 						setTimeout(function () {$('.load-more a').text('Load More News');}, 2500);
 					} else {
-						$('.load-more__button').hide();
+						$('.load-more-button').hide();
 						$('.js-load-more').text('No more news to load.');
 					}
 				}
