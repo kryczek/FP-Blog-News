@@ -7,7 +7,7 @@ body {
   background-color: #231f20;
 }
 
-h1 {
+h1,h2,h3,h4,h5 {
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -87,25 +87,26 @@ a.load-more-button {
   background: transparent;
   text-transform: uppercase;
   font-weight: 500;
-  font-style: normal;
-  font-size: 0.625rem;
+  font-style: bold;
+  font-size: 0.8em;
   letter-spacing: 0.3em;
   color: rgba(223,190,106,0.7);
-  border-radius: 0;
-  padding: 18px 80px 20px;
+  border-radius: 3;
+  padding: 18px 80px;
   transition: all 0.7s ease-out;
-  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background: linear-gradient(270deg, rgba(101, 113, 223, 0.8), rgba(31, 16, 112, 0.8), rgba(34,34,34,0), rgba(34,34,34,0));
   background-position: 1% 50%;
   background-size: 300% 300%;
   text-decoration: none;
   margin: 0.625rem;
   border: none;
-  border: 1px solid rgba(223,190,106,0.3);
+  border: 3px solid rgba(28, 0, 255, 0.3);
 }
 
 .button-clicked:hover:active,
 a.load-more-button:hover {
   color: #fff;
+  padding: 21px 83px;
   border: 1px solid rgba(223,190,106,0);
   color: white;
   background-position: 99% 50%;
@@ -139,8 +140,6 @@ a.load-more-button:hover {
   display: inline-block;
   width: 100%;
   background-color: #ccc;
-  opacity: 0.7;
-  border-radius: 3px;
   animation: loader-inner 2s infinite ease-in;
 }
 
