@@ -3,7 +3,7 @@
 
 
 html {
-  background: url('./img/background.jpg') no-repeat center center fixed;
+  background: url('/FP-Blog-News/img/background.jpg') no-repeat center center fixed no-repeat center center fixed;
   background-color: #231f20;
   -webkit-background-size: cover;
   -moz-background-size: cover;
