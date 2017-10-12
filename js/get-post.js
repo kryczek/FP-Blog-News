@@ -50,9 +50,9 @@ jQuery( function( $ ) {
 
 					// as long as we still have pages to load
 					if(fetchpage <= totalpages) {
-						setTimeout(function () {$('.load-more a').text('Load More News');
             $(#button).removeClass('button-clicked');
             $(#button).addClass('load-more-button');
+						setTimeout(function () {$('.load-more a').text('Load More News');
 
           }, 2500);
 					} else {
