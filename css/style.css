@@ -11,12 +11,6 @@ h1,h2,h3,h4,h5 {
   font-family: 'Rajdhani', sans-serif;
 }
 
-main {
-  padding:20px;
-  max-width:500px;
-  margin:0 auto;
-}
-
 a { 
   color:#3498db;
   text-decoration:none;
@@ -58,6 +52,14 @@ p {
   -ms-filter: blur(20px) brightness(0.7);
   -o-filter: blur(20px) brightness(0.7);
   filter: blur(20px) brightness(0.7);
+}
+
+/* Main content */
+
+main {
+  padding:20px;
+  max-width:500px;
+  margin:65px auto 0;
 }
 
 /* Posts list */
