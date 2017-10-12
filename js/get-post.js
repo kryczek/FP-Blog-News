@@ -53,10 +53,10 @@ jQuery( function( $ ) {
 						setTimeout(function () {
             $('.load-more a').removeClass('button-clicked');
             $('.load-more a').addClass('load-more-button');
-            $('.load-more a').text('Load More News');}, 2500);
+            $('.load-more a').text('Load More');}, 2500);
 					} else {
 						$('.load-more-button').hide();
-						$('.js-load-more').text('No more news to load.');
+						$('.js-load-more').text('Nothing more to load :(');
 					}
 				}
 
