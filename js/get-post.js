@@ -41,7 +41,7 @@ jQuery( function( $ ) {
               var customDate =  monthName[month] + ' ' +  day + ', ' + year;
 
                setTimeout(function () {
-                $(".posts").append('<li class="post wow fadeInRight" data-wow-delay="2s"><h3><a href="' + link + '" target="_blank">' + title + '</a></h3>'+ ' ' + '<span class="post-date">Posted ' + customDate + '</span>' + excerpt + '<a class="read-more" href="' + link + '" target="_blank">Read more</a>' + '</li>');
+                $(".posts").append('<li class="post wow fadeInRight" data-wow-delay=".25s"><h3><a href="' + link + '" target="_blank">' + title + '</a></h3>'+ ' ' + '<span class="post-date">Posted ' + customDate + '</span>' + excerpt + '<a class="read-more" href="' + link + '" target="_blank">Read more</a>' + '</li>');
               }, 2000);
 					});
 
