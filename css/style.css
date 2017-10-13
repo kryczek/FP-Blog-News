@@ -58,6 +58,24 @@ p {
   filter: blur(20px) brightness(0.7);
 }
 
+/* Nav bar */
+nav {
+  position: fixed;
+}
+
+nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  left: 0;
+}
+
+.social-media {
+  right: 0;
+}
+
 /* Main content */
 
 main {
