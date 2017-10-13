@@ -16,7 +16,12 @@ h1 {
     text-align: center;
     color: white;
     text-transform: uppercase;
-    -vendor-animation-delay: 10s;
+    vendor-animation-delay: 10s;
+    -moz-vendor-animation-delay: 10s;
+    -ms-vendor-animation-delay: 10s;
+    -o-vendor-animation-delay: 10s;
+    -webkit-vendor-animation-delay: 10s;
+
 }
 
 h3 {
