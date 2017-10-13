@@ -16,6 +16,7 @@ h1 {
     text-align: center;
     color: white;
     text-transform: uppercase;
+    -vendor-animation-delay: 10s;
 }
 
 h3 {
