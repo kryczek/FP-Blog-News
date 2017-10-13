@@ -5,6 +5,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding:10px;
   background-color: #231f20;
+  overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5 {
