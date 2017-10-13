@@ -42,7 +42,7 @@ jQuery( function( $ ) {
 
                setTimeout(function () {
                 $(".posts").append('<li class="post"><h3><a href="' + link + '" target="_blank">' + title + '</a></h3>'+ ' ' + '<span class="post-date">Posted ' + customDate + '</span>' + excerpt + '<a class="read-more" href="' + link + '" target="_blank">Read more</a>' + '</li>');
-              }, 2500);
+              }, 2000);
 					});
 
           // increment fetchpage
@@ -53,7 +53,7 @@ jQuery( function( $ ) {
 						setTimeout(function () {
             $('.load-more a').removeClass('button-clicked');
             $('.load-more a').addClass('load-more-button');
-            $('.load-more a').text('Load More');}, 2500);
+            $('.load-more a').text('Load More');}, 2000);
 					} else {
 						$('.load-more-button').hide();
 						$('.js-load-more').text('Nothing more to load :(');
