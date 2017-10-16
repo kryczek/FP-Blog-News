@@ -19,6 +19,6 @@
 Była to moja pierwsze styczność z REST API, ale wydaje mi się, że podołałem temu zdaniu.
 Aplikację najpiej przeglądać online, zainstalowną na włąsnym serwerze lub jako klon repozytorium.
 
-Wyświetlenie lokane np. otwarcie pliku index.html w przeglądarce z folderu z dysku komputera spowoduje brak załadowania postów w aplikacji.
-Przyczyna: W przypadku dostarczonego przez Państwa Endpointu konsola mówi mi o problemie: "Zablokowano żądanie do zasobu innego pochodzenia: zasady „Same Origin Policy” nie pozwalają wczytywać zdalnych zasobów". Sprawdzałem z innymi przykładami np. https://demo.wp-api.org/wp-json/ i w nich ten problem nie występuje.
-Niestety przy obecnym stanie mojej wiedzy jest to dla mnie nie do przejścia.
+Otwarcie pliku index.html w przeglądarce z folderu z dysku komputera spowoduje brak załadowania postów w aplikacji.
+Przyczyna: W przypadku dostarczonego przez Państwa adresu Endpointu konsola mówi mi o problemie: "Zablokowano żądanie do zasobu innego pochodzenia: zasady „Same Origin Policy” nie pozwalają wczytywać zdalnych zasobów". Sprawdzałem z innymi przykładami np. https://demo.wp-api.org/wp-json/ i w nich ten problem nie występuje.
+Niestety przy obecnym stanie mojej wiedzy jest to dla mnie nie do przejścia - natomiast chętnie się dowiem czy z mojej strony mogę to wyeliminować.
