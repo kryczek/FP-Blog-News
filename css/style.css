@@ -160,7 +160,7 @@ a.read-more:after {
 
 a.read-more:hover:after {
   content: '▸';
-  padding-left: 15px;
+  padding-left: 10px;
   opacity: 1;
 }
 
