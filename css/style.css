@@ -111,6 +111,35 @@ nav {
 margin-right: 15px;
 }
 
+@media only screen and (min-width: 1024px) {
+
+  nav {
+    padding: 20px 0px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  nav {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .logo,
+  .social-media {
+    text-align: center;
+  }
+
+  .social-media ul {
+    display: inline-flex;
+    float: none;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+}
+
 /* Main content */
 
 main {
@@ -118,6 +147,20 @@ main {
   width:500px;
   margin:65px auto 0;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  main {
+    padding: 10px;
+    margin: 5px auto 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  main {
+    width:100%;
+  }
 }
 
 /* Posts list */
@@ -162,6 +205,17 @@ a.read-more:hover:after {
   content: '▸';
   padding-left: 10px;
   opacity: 1;
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.4em;
+  }
+
+  .button-clicked:active,
+  a.load-more-button {
+    padding: 18px 50px !important;
+  }
 }
 
 /* Button: Call to action */
