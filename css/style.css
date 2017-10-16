@@ -182,6 +182,8 @@ a.load-more-button {
   margin: 0.625rem;
   border: none;
   border: 3px solid rgba(28, 0, 255, 0.3);
+  -webkit-animation-delay: 2500ms;
+  animation-delay: 2500ms;
 }
 
 .button-clicked:hover:active,
@@ -200,6 +202,10 @@ a.load-more-button:hover {
   margin: 0 auto;
 }
 
+.js-load-more {
+  color: white;
+}
+
 /* Loader */
 
 .loader {
@@ -210,7 +216,7 @@ a.load-more-button:hover {
   border: 3px solid rgba(28,0,255,1);
   top: 50%;
   opacity: 0.7;
-  border-radius: 3px;
+  border-radius: 3.5px;
   animation: loader 2s infinite ease;
 }
 
