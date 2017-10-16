@@ -126,6 +126,10 @@ li.post {
   margin-bottom: 20px;
   border-radius: 3px;
   box-shadow: -3px 0px rgba(28,0,255,1);
+  -webkit-animation-delay: 250ms;
+  animation-delay: 250ms;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
 }
 
 li.post h3 {
@@ -134,6 +138,22 @@ li.post h3 {
 
 span.post-date {
     font-weight: bold;
+}
+
+a.read-more:after {
+  content: '▸';
+  margin-left: 0px;
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+a.read-more:hover:after {
+  content: '▸';
+  padding-left: 15px;
+  opacity: 1;
 }
 
 /* Button: Call to action */
