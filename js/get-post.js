@@ -62,10 +62,6 @@ jQuery( function( $ ) {
 
 		  },
 
-       error: function ( data, textStatus, request ) {
-            console.log(data.responseText);
-        },
-
 		  cache: false
 		} );
     
