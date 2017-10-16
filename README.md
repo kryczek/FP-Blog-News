@@ -13,5 +13,4 @@
 5. [Google Font](https://jquery.com/)
 6. [WP Api rest](https://codepen.io/aaronrutley/pen/xREVze?q=WP+REST+API+Demo&limit=all&type=type-pens)
 
-**Picture:**
-- [Pexels](https://www.pexels.com/photo/forest-mountains-fog-clouds-9754/)
+**Picture:** [Pexels](https://www.pexels.com/photo/forest-mountains-fog-clouds-9754/)
