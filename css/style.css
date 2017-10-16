@@ -129,6 +129,10 @@ margin-right: 15px;
 
 @media only screen and (max-width: 425px) {
 
+  .logo img {
+  padding: 10px 0px;
+}
+
   .logo,
   .social-media {
     text-align: center;
@@ -138,7 +142,7 @@ margin-right: 15px;
     display: inline-flex;
     float: none;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 0px 0px 10px;
   }
 }
 
